@@ -1,0 +1,216 @@
+@media (min-width: 768px) and (max-width: 991.98px) {  
+    *{box-sizing: border-box;}
+    body{
+        margin: 0px;
+        /* font-family: 'droid_serifregular'; */
+    }
+    #title{
+        text-indent: -99999px;
+        display: inline;
+    }
+    .reg{
+        min-width: 1500px;
+        min-height: 817px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;   
+    }
+    .arrow{
+        min-width: 1500px;
+        height: 150px;
+        background-image: url(../imgs/arrow-01.png); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;  
+        z-index: 2;
+        top: 114px;
+        display: none;
+        animation: arrow 1s infinite;
+    }
+    .container-fluid.cover{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        z-index: 99;
+    }
+    .text.reg{
+        background-image: url(../imgs/click-01.png);
+        z-index: 2; 
+        display: none;
+    
+    }
+    .text.reg{
+        background-color: #E5E5E5;
+    }
+    .acontainer{
+        position: relative;
+        background-color: #E5E5E5;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .adiv{
+        width: 93px;
+        height: 100px;
+        position: absolute;
+        top: 33%;
+        left: 27%;
+        z-index: 9;
+    }
+    .ndiv{
+        width: 78px;
+        height: 100px;
+        position: absolute;
+        top: 33%;
+        left: 33%;
+        z-index: 9;
+    }
+    .part{
+        z-index: 3;
+        background-image: url(../imgs/base-01.png);
+    }
+    .detail .detailtit{
+        text-transform: capitalize;
+    }
+    .line{
+        background-image: url(../imgs/line-01.png);
+        display: none;
+        z-index: 2;
+    }
+    .serif{
+        background-image: url(../imgs/serif-01.png);
+        z-index: 10;    
+        display: none;
+    }
+    .x-height{
+        background-image: url(../imgs/capx-01.png);
+        z-index: 10;     
+        display: none;
+    }
+    .aperture{
+        background-image: url(../imgs/aperture-01.png);
+        display: none;
+        z-index: 2;
+    }
+    .ascender{
+        background-image: url(../imgs/ascender-01.png);
+        display: none;
+        z-index: 3;
+    }
+    .crossbar{
+        background-image: url(../imgs/crossbar-01.png);
+        display: none;
+        z-index: 3;    
+    }
+    .baseline{
+        background-image: url(../imgs/baseline-01.png);
+        display: none;
+        z-index: 2;
+    }
+    .bowl{
+        background-image: url(../imgs/bowl-01.png);
+        display: none;
+        z-index: 3;
+    }
+    .capx{
+        background-image: url(../imgs/capx-01.png);
+        display: none;
+        z-index: 2;
+    }
+    .descender{
+        background-image: url(../imgs/descender-01.png);
+        display: none;
+        z-index: 3;
+    }
+    .letter{
+        background-image: url(../imgs/letter-01.png);
+        display: none;
+        z-index: 2;
+    }
+    .leading{
+        background-image: url(../imgs/leading-01.png);
+        display: none;
+        z-index: 2;
+    }
+    .counter{
+        background-image: url(../imgs/counter-01.png);
+        display: none;
+        z-index: 2;
+    }
+    .stem{
+        background-image: url(../imgs/stem-01.png);
+        display: none;
+        z-index: 3;
+    }
+    .term{
+        background-image: url(../imgs/term-01.png);
+        display: none;
+        z-index: 3;
+    }
+    .storke{
+        background-image: url(../imgs/storke-01.png);
+        display: none;
+        z-index: 3;
+    }
+    .col-1.sitting,.col-2.sitting,.col-3.sitting{
+        padding:0px;
+    }
+    .row.top{
+        position: absolute;
+        top: 277px;
+        height: 150px;
+        justify-content: center;
+        width: 700px;
+    }
+    .detail.set{
+        position: absolute;
+        width: 100%;
+        top:0px;
+        right: 0px;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        z-index:999;
+        background-color:rgba(255, 255, 255, 0.95);;
+    }
+    #close{
+        position: absolute;
+        z-index: 1000;
+        top: 20px;
+        right: 20px;
+    }
+    .detail.set p{
+        margin-top:20px;
+        text-align: center;
+    }
+    .row.bom{
+        position: absolute;
+        top: 423px;
+        height: 150px;
+        justify-content: center;
+        width: 610px;    
+    }
+    .row #one{
+        padding-left: 26px;
+    }
+    
+    @keyframes arrow{
+        0%{
+            top:114px;
+        }100%{
+            top:124px;
+        }
+    }
+}

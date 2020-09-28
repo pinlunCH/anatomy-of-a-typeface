@@ -1,0 +1,93 @@
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    *{box-sizing: border-box;}
+    body{
+        margin: 0px;
+        /* font-family: 'droid_serifregular'; */
+    }
+    .text.reg, .arrow{
+        display: none;
+        background:none;
+        width: 0px;
+        height: 0px;
+    }
+    .container-fluid.cover{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        z-index: 99;
+    }
+    #title{
+        text-indent: -99999px;
+    }
+    .col-1.sitting,.col-2.sitting,.col-3.sitting{
+        padding:0px;
+    }
+    .row.top{
+        position: absolute;
+        top: 108px;
+        height: 60px;
+        justify-content: center;
+        width: 284px;
+    }
+    .row.bom{
+        position: absolute;
+        top: 170px;
+        height: 60px;
+        justify-content: center;
+        width: 255px;   
+    }
+    .detail.set{
+        position: absolute;
+        width: 100%;
+        top:0px;
+        right: 0px;
+        height: 100vh;
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        z-index:999;
+        background-color:rgba(255, 255, 255, 0.95);;
+    }
+    .row #one{
+        padding-left: 26px;
+    }
+    #close{
+        position: absolute;
+        z-index: 1000;
+        top: 20px;
+        right: 20px;
+    }
+    .detail.set p{
+        margin-top:20px;
+        text-align: center;
+    }
+    .acontainer{
+        position: relative;
+        background-color: #E5E5E5;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .reg{
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px; 
+    }
+    .part{
+        z-index: 3;
+        background-image: url(../imgs/base-01.png);
+    }
+ }
